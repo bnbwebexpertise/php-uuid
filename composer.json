@@ -1,0 +1,29 @@
+{
+  "name": "bnbwebexpertise/uuid",
+  "description": "UUID helpers",
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "B&B Web Expertise",
+      "email": "support@bnb.re"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bnb\\Uuid\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Bnb\\Tests\\": "tests/"
+    }
+  }
+}
