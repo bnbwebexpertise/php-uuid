@@ -1,5 +1,5 @@
 {
-  "name": "bnbwebexpertise/uuid",
+  "name": "bnbwebexpertise/php-uuid",
   "description": "UUID helpers",
   "type": "package",
   "license": "MIT",
