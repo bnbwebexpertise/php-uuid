@@ -2,9 +2,9 @@
 namespace Bnb\Tests;
 
 use Bnb\Uuid\Uuid;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class UuidTest extends PHPUnit_Framework_TestCase
+class UuidTest extends TestCase
 {
 
     public function test_it_returns_a_uuid_v4()
